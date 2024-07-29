@@ -4,24 +4,11 @@
   
     
     <entry>
-      <title>尝试建了一个个人博客</title>
-      <link href="/posts/b3aba080.html"/>
-      <url>/posts/b3aba080.html</url>
+      <title>尝试建立了一个个人博客</title>
+      <link href="/posts/49bb27f6.html"/>
+      <url>/posts/49bb27f6.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>大学录取通知书也下来了一段时间<br>因为之前信息奥赛的竞赛经历，我对编程的世界似乎有了一种近乎偏执的向往于是放弃进入985差专业的机会，义无反顾地在自己浙江的80个志愿全部填上了计算机类</p><p>但机缘巧合地是，自己录进了一个211的理科实验班，而且计算机分流有一定难度，需要大一狠命卷绩点，也是醉了</p><p>不过暑假可以自己放心大胆的弄计算机<br>先是入门的导论，再是哈佛的CS50x<br>现在则是在学MIT the missing semester<br>linux用起来颇有一种极客的炫酷感</p><p>不过开始时因为英语读的有些吃力<br>再加上国外课程体系不同于中国式的粗暴填鸭，喜欢引导学生自行自学<br>课堂与作业割裂感有些强，自己google，github，stack overflow经常一翻一整天，现在在看鸟哥的linux私房菜，好的教材真的是让人爱不释手</p><p>其实很早就想着要做一个博客<br>最开始是设想在csdn或者博客园做一个博客，但是很快发现自己其实挺讨厌csdn这样广告满天飞的平台的<br>自己也没有什么引流的需要，就是想留个地方自己写点什么记录一下自己的成长过程的<br>但是单纯写在本地word和onenote上似乎又少了些什么，于是想自己建一个博客<br>开始本来想着暑假自学学完前端三剑客，然后自己从零开始搭建<br>但是学了一会，发现学习时长很长而且制作难度和复杂度很大<br>虽然是迟早要学的，但是在真正自己能够建立自己的博客前，<strong>请让我稍微偷个懒吧，神明大人</strong><br>于是就在B站找了各种教程，如果有人试过的话会发现这是一个需要不断试错的过程，我大概看了七八个视频主的教程，四五个文档和博客文章，前几个都是到了某个地方出问题，然后自己疯狂翻评论区<br>这里总结了几个教训</p><blockquote><p>1.千万注意时间，时间太过久远的教程往往因为软件和网址的变动而无法使用<br>2.看之前先看评论区，如果有些视频内容不再适用，会有热心的好哥哥帮你指出来的<br>3.一定要仔细看代码，尤其复制粘贴的时候少了个<strong>空格，缩进</strong>没有都是致命的问题<br>4.虽然我没这么做，但是评论区真的有萌新把注释看都不看输进去的</p></blockquote><p>开始时想的是反正套个模板，还有人手把手教的东西两三个小时就ok了<br>实际上花了三倍的时间去做<br>从node.js的安装环境配置就开始暗藏玄机</p><blockquote><p>git倒是可以无脑下一步<br>后面配置hexo的时候则需要自己google解决办法的情况大幅增加<br>最终放弃了想要傻瓜跟做的想法<br>开始仔细看hexo官方文档<br>学习github网站仓库的用法<br>一点一点学习模板anheyu的官方文档，对着上千行的系统文件一点一点的配置<br>自己之前一直以为互联网的图片是自己像QQ空间那样上传即可的，没想到引用需要图床，又去github弄了个图床，搞了个picgo来管理<br>最后想写这篇文章还得花点时间去学markdown的语法(这个倒是挺友好的)</p></blockquote><p>花了一天全部弄完，看着自己还是有几分简陋的博客，有种自己是原始人的感觉<br>不过感觉收获也很多，不仅有了一个属于自己的小站，收获了许多技能，熟悉了几个重要网站的操作<br>最重要的是，自己对看似困难的技术开始那种想要<strong>逃避</strong>的感觉减淡了<br>感觉自己更愿意去试着多花一些精力去“<strong>折腾</strong>”了<br>真的很<strong>奇妙</strong></p>]]></content>
       
       
       
@@ -33,9 +20,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -47,6 +34,17 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
